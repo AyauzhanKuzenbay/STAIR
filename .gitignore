@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data & model outputs
+*.npy
+*.h5
+*.csv
+*.pkl
+model_output*/
+chengdu_data*/
+xian_*/
+didi_data*/
+MODEL_OUT*/
+
+# Logs
+*.log
+*.txt.bak
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
