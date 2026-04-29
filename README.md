@@ -13,8 +13,8 @@ Raw CSV trajectories → [spa/] Preprocessing → .npy arrays → [traj/] Traini
 ## Repository Structure
 
 ```
-teriwarp/
-├── spa/                        # Stage 1 — Spatiotemporal Preprocessing
+STAIR/
+├── preprocess/                        # Stage 1 — Spatiotemporal Preprocessing
 │   ├── main.py                 # Entry point for SPA
 │   ├── arg_processor.py        # Reads and validates the .ini config
 │   ├── cell_generator.py       # Builds spatiotemporal grid cells
@@ -26,7 +26,7 @@ teriwarp/
 │   ├── arg.ini                 # Example config (Chengdu)
 │   └── arg-xian.ini            # Example config (Xi'an)
 │
-├── traj/                       # Stage 2 — Model Training & Evaluation
+├── model/                       # Stage 2 — Model Training & Evaluation
 │   ├── main.py                 # Entry point for training/evaluation
 │   ├── arg_processor.py        # Reads and validates the .ini config
 │   ├── dnn_model.py            # TERI encoding + GRU/Warpformer model
