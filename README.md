@@ -1,6 +1,6 @@
 # STAIR
 
-Trajectory similarity search using **TERI** (Temporal Encoding with Relative Information) and **Warpformer** — a GRU-based model with attention for learning trajectory representations.
+Trajectory similarity search
 
 The pipeline consists of two stages:
 
